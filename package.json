@@ -1,15 +1,16 @@
 {
   "homepage": "https://github.com/tiburcioMartim/NLW-Expert-trilha-de-React",
-  "script": {
+  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
+  }
+  ,
 
   "name": "nlw-expert-notes",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+  "script": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
